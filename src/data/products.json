@@ -1,0 +1,153 @@
+[
+  {
+    "id": "bermuda-01",
+    "titulo": "Short Bronx",
+    "imagen": "./img/bermudas/01.webp",
+    "categoria": {
+      "nombre": "Bermudas",
+      "id": "bermudas"
+    },
+    "precio": 53000
+  },
+  {
+    "id": "bermuda-02",
+    "titulo": "Short Elephant",
+    "imagen": "./img/bermudas/02.jpg",
+    "categoria": {
+      "nombre": "Bermudas",
+      "id": "bermudas"
+    },
+    "precio": 56000
+  },
+  {
+    "id": "bermuda-03",
+    "titulo": "Short Notorious",
+    "imagen": "./img/bermudas/03.jpg",
+    "categoria": {
+      "nombre": "Bermudas",
+      "id": "bermudas"
+    },
+    "precio": 50000
+  },
+  {
+    "id": "bermuda-04",
+    "titulo": "Short Proyec",
+    "imagen": "./img/bermudas/04.webp",
+    "categoria": {
+      "nombre": "Bermudas",
+      "id": "bermudas"
+    },
+    "precio": 44000
+  },
+
+  {
+    "id": "torso-01",
+    "titulo": "Remera Área 51",
+    "imagen": "./img/torso/01.webp",
+    "categoria": {
+      "nombre": "Torso",
+      "id": "torso"
+    },
+    "precio": 22000
+  },
+  {
+    "id": "torso-02",
+    "titulo": "Musculosa Thai",
+    "imagen": "./img/torso/02.jpg",
+    "categoria": {
+      "nombre": "Torso",
+      "id": "torso"
+    },
+    "precio": 18000
+  },
+  {
+    "id": "torso-03",
+    "titulo": "Remera Kick",
+    "imagen": "./img/torso/03.jpg",
+    "categoria": {
+      "nombre": "Torso",
+      "id": "torso"
+    },
+    "precio": 20000
+  },
+  {
+    "id": "torso-04",
+    "titulo": "Top Gris",
+    "imagen": "./img/torso/04.webp",
+    "categoria": {
+      "nombre": "Torso",
+      "id": "torso"
+    },
+    "precio": 27000
+  },
+  {
+    "id": "torso-05",
+    "titulo": "Musculosa abierta",
+    "imagen": "./img/torso/05.webp",
+    "categoria": {
+      "nombre": "Torso",
+      "id": "torso"
+    },
+    "precio": 16000
+  },
+  {
+    "id": "accesorios-01",
+    "titulo": "Guantes Proyec",
+    "imagen": "./img/accesorios/01.png",
+    "categoria": {
+      "nombre": "Accesorios",
+      "id": "accesorios"
+    },
+    "precio": 58000
+  },
+  {
+    "id": "accesorios-02",
+    "titulo": "Guantes Everlast",
+    "imagen": "./img/accesorios/02.webp",
+    "categoria": {
+      "nombre": "Accesorios",
+      "id": "accesorios"
+    },
+    "precio": 68000
+  },
+  {
+    "id": "accesorios-03",
+    "titulo": "Tibiales Pro Dragons",
+    "imagen": "./img/accesorios/03.webp",
+    "categoria": {
+      "nombre": "Accesorios",
+      "id": "accesorios"
+    },
+    "precio": 54000
+  },
+  {
+    "id": "accesorios-04",
+    "titulo": "Tibiales Proyec",
+    "imagen": "./img/accesorios/04.webp",
+    "categoria": {
+      "nombre": "Accesorios",
+      "id": "accesorios"
+    },
+    "precio": 33000
+  },
+  {
+    "id": "accesorios-05",
+    "titulo": "Bucal Dientes",
+    "imagen": "./img/accesorios/05.webp",
+    "categoria": {
+      "nombre": "Accesorios",
+      "id": "accesorios"
+    },
+    "precio": 17000
+  },
+  {
+    "id": "accesorios-06",
+    "titulo": "Bucal Arg",
+    "imagen": "./img/accesorios/06.webp",
+    "categoria": {
+      "nombre": "Accesorios",
+      "id": "accesorios"
+    },
+    "precio": 25000
+  }
+]

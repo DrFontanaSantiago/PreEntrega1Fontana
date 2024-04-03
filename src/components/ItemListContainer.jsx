@@ -1,15 +1,12 @@
 import { useEffect, useState } from "react";
-
 import Container from "react-bootstrap/Container";
-import { ItemList } from "ItemList";
+import { ItemList } from "./ItemList";
 import { useParams } from "react-router-dom";
-
-import data from "../data/products.json";
 
 export const ItemListContainer = () => {
   const [products, setProducts] = useState([]);
 
-  const { id } = useParams();
+  const { categoryId } = useParams();
 
   useEffect(() => {
     const get = new Promise((resolve, reject) => {
@@ -17,17 +14,19 @@ export const ItemListContainer = () => {
     });
 
     get.then((data) => {
-      if (!id) {
+      if (!categoryId) {
         setProducts(data);
       } else {
-        const filtered = data.filtered((p) => p.category === id);
+        const filtered = data.filter(
+          (product) => product.categoria === categoryId
+        );
         setProducts(filtered);
       }
     });
-  }, [id]);
+  }, [categoryId]);
 
   return (
-    <Container className="mat-4">
+    <Container className="mt-5">
       <ItemList products={products} />
     </Container>
   );
